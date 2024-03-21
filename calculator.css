@@ -1,0 +1,155 @@
+*{
+    margin : 0;
+    padding : 0;
+    border: none; 
+    border-radius: 0;
+    font-size: 35px;
+}
+body{
+   background-color:antiquewhite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+ .calculator{
+    margin-top: 10px;
+    background-color: black;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    /* align-items: center; */
+    height:600px;
+    width:480px;
+    gap:10px;
+    position:relative;
+
+}
+.button{
+width:100px;
+background-color:black;
+color:white;
+height:55px;
+box-shadow: 0 0 1rem rgba(251, 248, 248, 0.4); 
+border: 2px solid grey; 
+
+}
+#screen{
+width:450px;
+height:100px;
+background-color:darkslategrey;
+color: white;
+margin-top: 20px;
+/* margin-bottom: 20px; */
+border-radius: 0;
+border: solid 2px black;
+display : flex;
+justify-content: end;
+flex-wrap: wrap;
+/* box-shadow: 0 0 1rem rgba(14, 3, 3, 0.5);  */
+
+}
+
+h1{
+ color:darkslategray;
+ background-color:white;
+ text-align: center;  
+ font-size: 50px; 
+ border-radius :0;
+ /* display:inline-block;  */
+ /* width:600px;
+ margin-left: 390px; */
+} 
+#zero{
+ width:215px;
+ position:absolute;
+ top:525px;
+ left:16px;
+ height: 60px;
+
+}
+#dot{
+    position:absolute;
+    top: 525px;
+    left: 240px;
+}
+#equalTo{
+ height:140px;
+ margin-left:15px;
+}
+#root, #percentage, #swap, #ONC{
+height:40px;
+border-radius: 0;
+background-color:slategray;
+color:black;
+}
+#root, #percentage{
+    color:aliceblue;
+}
+#swap{
+line-height: 0.75rem;
+}
+#ONC{
+    background-color: red;
+    border-radius: 0;
+    height:45px;
+    color:aliceblue;
+}
+#MC, #Madd, #Msub{
+    height:40px;
+    background-color:azure;
+    border-radius: 0;
+    color:cadetblue;
+}
+
+#screentxt{
+    height:80px;
+    width:450px;
+    text-align: end;
+    font-size:80px;
+
+}
+#partialRes{
+    height:20px;
+    width:450px;
+    text-align: end;
+    opacity:0.5;
+    font-size:20px;
+}
+
+#swap{
+    background-color: darkslategrey;
+    color:aliceblue;
+}
+/* #h1{
+display:flex;
+justify-content: center;
+
+} */
+
+.swapcontainer{
+    display:flex;
+    justify-content:center;
+    /* gap:10px; */
+    width: 500px;
+
+}
+.swap{
+/* position:absolute; */
+display:flex;
+width:360px;
+flex-wrap:wrap;
+gap:10px;
+justify-content: center;
+
+
+}
+
+.addsub{
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content:start;
+    width:120px;
+}
+
